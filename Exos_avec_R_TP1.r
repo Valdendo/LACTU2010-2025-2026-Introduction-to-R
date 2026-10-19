@@ -1,6 +1,8 @@
+############################################################
 # TP1
+############################################################
 
-# Exercice 1.1
+## === EXERCICE 1.1 ========================================
 
 # v1 avec segments verticaux et horizontaux pour la CDF
 
@@ -118,8 +120,7 @@ ggplot(df, aes(x = factor(N), group = 1)) +  # <- ajout de group = 1
        x = "Valeurs de N", y = "Fréquence (%)") +
   theme_minimal(base_size = 14)
 
-################################
-# Exercice 1.2
+## === EXERCICE 1.2 ========================================
 
 # Packages
 library(ggplot2)
@@ -218,9 +219,7 @@ cat("Écart-type de l'échantillon :", ecart_type, "\n")
 library(actuar)
 help(rpareto)
 
-################################
-
-# Exercice 1.3
+## === EXERCICE 1.3 ========================================
 
 library(ggplot2)
 
@@ -280,9 +279,7 @@ dpois(0:2, mu)
 # Résultat attendu :
 # [1] 0.2231302 0.3346953 0.2510215
 
-###################################
-
-# Exercice 1.4
+## === EXERCICE 1.4 ========================================
 
 library(ggplot2)
 
